@@ -107,7 +107,7 @@ extern void luaL_assertfail(const char *file, int line, const char *message);
  * if WIFI_STA_HOSTNAME_APPEND_MAC defined: Hostname MUST be 26 chars or less, since last 3 octets of MAC address will be appended
  * if defined hostname is invalid: hostname will default to NODE-xxxxxx (xxxxxx being last 3 octets of MAC address)
 */
-//#define WIFI_STA_HOSTNAME "NodeMCU"
+#define WIFI_STA_HOSTNAME "WaterlySetup"
 //#define WIFI_STA_HOSTNAME_APPEND_MAC
 
 //#define WIFI_SMART_ENABLE
